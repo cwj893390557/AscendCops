@@ -1,0 +1,101 @@
+{
+ "binFileName": "ArgMaxWithValue_ef0fb1765342d1cb1f3aece201b5dc90",
+ "binFileSuffix": ".o",
+ "blockDim": -1,
+ "coreType": "VectorCore",
+ "core_type": "AIV",
+ "kernelName": "ArgMaxWithValue_ef0fb1765342d1cb1f3aece201b5dc90",
+ "magic": "RT_DEV_BINARY_MAGIC_ELF",
+ "memoryStamping": [],
+ "opParaSize": 40,
+ "parameters": [
+  null,
+  null,
+  null,
+  null
+ ],
+ "sha256": "33271511d0c6dca45ae0f5ff92cc87edd80bb288e654cf019f62d7dafe54819a",
+ "workspace": {
+  "num": 1,
+  "size": [
+   -1
+  ],
+  "type": [
+   0
+  ]
+ },
+ "kernelList": [
+  {
+   "kernelName": "ArgMaxWithValue_ef0fb1765342d1cb1f3aece201b5dc90_0"
+  }
+ ],
+ "optionalInputMode": "gen_placeholder",
+ "debugOptions": "printf",
+ "debugBufSize": 78643200,
+ "compileInfo": {},
+ "supportInfo": {
+  "implMode": "high_performance",
+  "int64Mode": false,
+  "simplifiedKeyMode": 0,
+  "simplifiedKey": [
+   "ArgMaxWithValue/d=0,p=1/3,2/3,2/3,2",
+   "ArgMaxWithValue/d=0,p=0/3,2/3,2/3,2",
+   "ArgMaxWithValue/d=1,p=1/3,2/3,2/3,2",
+   "ArgMaxWithValue/d=1,p=0/3,2/3,2/3,2"
+  ],
+  "staticKey": "9d9e5013be7ce3ee0cd2445a1da217d116af37aac47bb25405d185c3ddcc9e99,e4dd2e3050d07c7737d73133819ddabc8164db5e724b8ddf621c234eb521111a",
+  "inputs": [
+   {
+    "name": "x",
+    "index": 0,
+    "dtype": "int32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "outputs": [
+   {
+    "name": "indice",
+    "index": 0,
+    "dtype": "int32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   },
+   {
+    "name": "values",
+    "index": 1,
+    "dtype": "int32",
+    "format": "ND",
+    "paramType": "required",
+    "shape": [
+     -2
+    ],
+    "format_match_mode": "FormatAgnostic"
+   }
+  ],
+  "attrs": [
+   {
+    "name": "dimension",
+    "dtype": "int",
+    "value": 0
+   },
+   {
+    "name": "keep_dims",
+    "dtype": "bool",
+    "value": false
+   }
+  ],
+  "opMode": "dynamic",
+  "optionalInputMode": "gen_placeholder",
+  "deterministic": "ignore"
+ },
+ "filePath": "ascend310b/bin/arg_max_with_value/ArgMaxWithValue_ef0fb1765342d1cb1f3aece201b5dc90.json"
+}

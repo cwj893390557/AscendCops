@@ -1,0 +1,57 @@
+{
+  "op_type": "ArgMaxWithValue",
+  "op_list": [
+    {
+      "bin_filename": "ArgMaxWithValue_ef0fb1765342d1cb1f3aece201b5dc90",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "indice",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "values",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "dimension",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "keep_dims",
+          "dtype": "bool",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

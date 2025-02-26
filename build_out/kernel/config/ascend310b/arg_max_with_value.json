@@ -1,0 +1,272 @@
+{
+  "binList": [
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ArgMaxWithValue/d=0,p=1/1,2/3,2/1,2",
+        "ArgMaxWithValue/d=0,p=0/1,2/3,2/1,2",
+        "ArgMaxWithValue/d=1,p=1/1,2/3,2/1,2",
+        "ArgMaxWithValue/d=1,p=0/1,2/3,2/1,2"
+      ],
+      "staticKey": "671e88dd595aa6d21278611381170f081b9134f0e8a6556c67f91af9240feb30,675d2ade2b1d1144900e58e49f2f192cd0e33a00c43c3772dfd1348e9baa8c56",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "indice",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "values",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "dimension",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "keep_dims",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "binInfo": {
+        "jsonFilePath": "ascend310b/arg_max_with_value/ArgMaxWithValue_1d0a41dc9323e1fa2a5d0350c7ed31ae.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ArgMaxWithValue/d=0,p=1/0,2/3,2/0,2",
+        "ArgMaxWithValue/d=0,p=0/0,2/3,2/0,2",
+        "ArgMaxWithValue/d=1,p=1/0,2/3,2/0,2",
+        "ArgMaxWithValue/d=1,p=0/0,2/3,2/0,2"
+      ],
+      "staticKey": "e30aa8d10cab165e567af0711f127b190d3e8a633cc546b84966e6d943e32729,985616781e46308a017fe88aa5e4b155f574fad5bf55155c8a2e6f121c60e4e4",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "indice",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "values",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "dimension",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "keep_dims",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "binInfo": {
+        "jsonFilePath": "ascend310b/arg_max_with_value/ArgMaxWithValue_3b57390fa9b18c0f3eea66cebdf80fa1.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ArgMaxWithValue/d=0,p=1/4,2/3,2/4,2",
+        "ArgMaxWithValue/d=0,p=0/4,2/3,2/4,2",
+        "ArgMaxWithValue/d=1,p=1/4,2/3,2/4,2",
+        "ArgMaxWithValue/d=1,p=0/4,2/3,2/4,2"
+      ],
+      "staticKey": "7117aa6d6ae219637ccaf17713ed8547372e41e387b8a23b3f849f8d80852606,a774e7434c05b11524c312e647fe2eaff2d80ec2852b54553d46fc0b70101512",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "indice",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "values",
+          "index": 1,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "dimension",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "keep_dims",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "binInfo": {
+        "jsonFilePath": "ascend310b/arg_max_with_value/ArgMaxWithValue_5af856f4584abfc619de8fb8f73947ca.json"
+      }
+    },
+    {
+      "implMode": "high_performance",
+      "int64Mode": false,
+      "simplifiedKeyMode": 0,
+      "simplifiedKey": [
+        "ArgMaxWithValue/d=0,p=1/3,2/3,2/3,2",
+        "ArgMaxWithValue/d=0,p=0/3,2/3,2/3,2",
+        "ArgMaxWithValue/d=1,p=1/3,2/3,2/3,2",
+        "ArgMaxWithValue/d=1,p=0/3,2/3,2/3,2"
+      ],
+      "staticKey": "9d9e5013be7ce3ee0cd2445a1da217d116af37aac47bb25405d185c3ddcc9e99,e4dd2e3050d07c7737d73133819ddabc8164db5e724b8ddf621c234eb521111a",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "indice",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        },
+        {
+          "name": "values",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ],
+          "format_match_mode": "FormatAgnostic"
+        }
+      ],
+      "attrs": [
+        {
+          "name": "dimension",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "keep_dims",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "opMode": "dynamic",
+      "optionalInputMode": "gen_placeholder",
+      "deterministic": "ignore",
+      "binInfo": {
+        "jsonFilePath": "ascend310b/arg_max_with_value/ArgMaxWithValue_ef0fb1765342d1cb1f3aece201b5dc90.json"
+      }
+    }
+  ]
+}
